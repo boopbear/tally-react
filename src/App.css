@@ -1,0 +1,112 @@
+:root {
+  --primary-color: #FCBF15;
+  --secondary-color: #000;
+  --text-primary-color: #000;
+  --text-secondary-color: #FFF;
+  --button-primary-bg-color: #FCBF15;
+  --primary-hover-color: #212529;
+  --primary-background-color: #d9d9d9;
+  --secondary-background-color: #FFF;
+  --border-color: #FCBF15;
+  --box-shadow: 0 2px 8px 0 rgba(0,0,0,0.07);
+  --box-shadow-hover: 0 4px 16px 0 rgba(0,0,0,0.2);
+  
+}
+
+input:hover, input:active, input:focus {
+  color: var(--text-primary-color) !important;
+  border-color: var(--primary-color)  !important;
+}
+
+button:focus-visible, input:focus-visible {
+  outline: unset;
+}
+
+.menu-icons svg {
+  font-size: 20px !important;
+}
+
+.header-icons svg {
+  font-size: 28px !important;
+  color: black;
+}
+
+.mobile-arrow svg {
+  margin-bottom: 0.5em;
+}
+
+.feed-action-icons svg {
+  color: white;
+}
+
+span[role=img] {
+  vertical-align: middle;
+}
+
+.ant-table-cell {
+  min-width: 8rem;
+}
+
+ul.ant-table-pagination {
+  justify-content: flex-start !important;
+  margin-bottom: 2rem !important;
+}
+
+.page-nav-button-active {
+  color: #212529 !important;
+  background: #FCBF15 !important;
+}
+
+.center-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.custom-style-editor > p {
+  margin-bottom: 0 !important;
+}
+
+
+
+.button1 {
+  /* Other button styles */
+  background-color: #363636;
+  color: white;
+  border: none;
+}
+
+.action1 {
+  /* edit button and transaction button */
+  
+  color: black;
+  border: 1px solid black;
+}
+
+.action2 {
+  /* disable button*/
+  
+  color: red;
+  border: 1px solid red;
+}
+
+.action3 {
+  /*transaction button */
+  
+  color: #1677FF;
+  border: 1px solid #1677FF;
+}
+
+
+/* .button1:hover {
+  background-color: #FCBF15;
+  color: white;
+  border: none;
+  outline: none; /* Remove the outline on hover */
+ 
+
+body, p, span, div {
+  font-family: Poppins, sans-serif;
+}
